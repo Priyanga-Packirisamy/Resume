@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(254, 254, 254);
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr ;
+}
+.child:nth-child(2){
+    height:1030px;
+    background-color:rgb(47, 129, 132);
+    font-family:cursive;
+    font-size: 20px;
+    color:rgb(198, 197, 193);
+}
+.child:nth-child(3){
+
+    height:1030px;
+    background-color:rgb(198, 197, 193);
+    font-family:cursive;
+}
+.img1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.gchild1{
+    text-align: center;
+    font-size:35px;
+    padding-top: 20px;
+}
+.leftdet1{
+    font-size :15px;
+    padding-left: 20px;
+}
+.rchild{
+    font-size :15px;
+    padding-left: 20px;
+}
+a:link{
+    color:rgb(198, 197, 193);
+}
+.achive{
+    line-height: 20px;
+}
